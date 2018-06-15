@@ -1,6 +1,6 @@
 import sys
-sys.path.insert(0, 'E:\\LabManager\\src\\third_party')
-from sandbox import Sandbox, SandboxConfig
+from sandbox import Sandbox, SandboxConfig, builtins
+
 
 
 def func(a, b):

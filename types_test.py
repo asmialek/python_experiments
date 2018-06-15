@@ -1,11 +1,21 @@
-a = 1
-b = bytes(a)
-c = bytearray(a)
-d = b'1'.decode()
+a = str()
+b = int(False)
+c = list()
+d = None
 
-print(' > ' + str(a), b, c, d, sep='\n > ')
+# print(a, b, c, d)
+#
+# print(type(a), type(b), type(c), type(d))
+#
+# if type(a) is str:
+#     print('yey')
+#
+# if type(d) is str:
+#     print('yey')
+#
+#
 
-e = b''
-
-if e:
-    print(True)
+a = '\x97'
+b = '97'
+print(b.encode('utf-8'))
+print(bytes.fromhex(b))

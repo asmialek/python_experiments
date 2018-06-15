@@ -13,3 +13,7 @@ print(type(one), type(two))
 one = {'d': 'a'}
 two = {'d'}
 print(type(one), type(two))
+
+one = {'a', 'b'}
+two = {'d', 'a'}
+print(one | two)
